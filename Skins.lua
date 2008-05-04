@@ -100,7 +100,7 @@ LibButtonFacade:AddSkin("Vol Classic",{
 
 	-- Skin data start.
 	Backdrop = {
-		Hide = True,
+		Hide = true,
 	},
 	Icon = {
 		Width = 26,
