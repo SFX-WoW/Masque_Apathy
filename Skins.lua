@@ -51,6 +51,10 @@ LibButtonFacade:AddSkin("Vol II",{
 		Height = 32,
 		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Normal]],
 		Static = true,
+		Red = 0.25,
+		Green = 0.25,
+		Blue = 0.25,
+		Alpha = 1,
 	},
 	Pushed = {
 		Width = 32,
@@ -75,97 +79,6 @@ LibButtonFacade:AddSkin("Vol II",{
 		Width = 32,
 		Height = 32,
 		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Highlight]],
-		BlendMode = "ADD",
-	},
-	HotKey = {
-		Width = 32,
-		Height = 10,
-		OffsetX = -2,
-		OffsetY = 4,
-	},
-	Count = {
-		Width = 32,
-		Height = 10,
-		OffsetX = -2,
-		OffsetY = -6,
-	},
-	Name = {
-		Width = 32,
-		Height = 10,
-		OffsetY = -6,
-	},
-	-- Skin data end.
-
-},true)
-
--- Vol Classic
-LibButtonFacade:AddSkin("Vol Classic",{
-
-	-- Skin data start.
-	Backdrop = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Backdrop]],
-	},
-	Icon = {
-		Width = 26,
-		Height = 26,
-		TexCoords = {0.07,0.93,0.07,0.93},
-	},
-	Border = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Equip]],
-		BlendMode = "ADD",
-	},
-	Flash = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Flash]],
-	},
-	Cooldown = {
-		Width = 26,
-		Height = 26,
-	},
-	AutoCast = {
-		Width = 26,
-		Height = 26,
-		ModelScale = 0.8,
-	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-	},
-	Normal = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Overlay]],
-		Static = true,
-	},
-	Pushed = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Pushed]],
-	},
-	Disabled = {
-		Hide = true,
-	},
-	Checked = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Checked]],
-		BlendMode = "ADD",
-	},
-	Gloss = {
-		Hide = true,
-	},
-	Highlight = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Classic\Highlight]],
 		BlendMode = "ADD",
 	},
 	HotKey = {
