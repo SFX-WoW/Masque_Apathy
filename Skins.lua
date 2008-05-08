@@ -1,4 +1,4 @@
---[[ Vol II for ButtonFacade ]]
+--[[ Apathy for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
@@ -6,13 +6,13 @@ if not LibButtonFacade then
 end
 
 -- Vol II
-LibButtonFacade:AddSkin("Vol II",{
+LibButtonFacade:AddSkin("Apathy",{
 
 	-- Skin data start.
 	Backdrop = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Backdrop]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 26,
@@ -22,13 +22,13 @@ LibButtonFacade:AddSkin("Vol II",{
 	Border = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Equip]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Equip]],
 		BlendMode = "ADD",
 	},
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Flash]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Flash]],
 	},
 	Cooldown = {
 		Width = 26,
@@ -49,7 +49,7 @@ LibButtonFacade:AddSkin("Vol II",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
 		Static = true,
 		Red = 0.25,
 		Green = 0.25,
@@ -59,7 +59,7 @@ LibButtonFacade:AddSkin("Vol II",{
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Pushed]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Pushed]],
 	},
 	Disabled = {
 		Hide = true,
@@ -67,18 +67,18 @@ LibButtonFacade:AddSkin("Vol II",{
 	Checked = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Checked]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Checked]],
 		BlendMode = "ADD",
 	},
 	Gloss = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Gloss]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
 	},
 	Highlight = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Volii\Textures\Highlight]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
 		BlendMode = "ADD",
 	},
 	HotKey = {
