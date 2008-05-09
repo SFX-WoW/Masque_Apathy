@@ -5,30 +5,33 @@ if not LibButtonFacade then
 	return
 end
 
--- Vol II
+-- Apathy
 LibButtonFacade:AddSkin("Apathy",{
 
 	-- Skin data start.
 	Backdrop = {
 		Width = 32,
 		Height = 32,
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 26,
 		Height = 26,
-		TexCoords = {0.07,0.93,0.07,0.93},
+		TexCoords = {0.07, 0.93, 0.07, 0.93},
 	},
 	Border = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Equip]],
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Flash]],
+		Color = {1, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Cooldown = {
 		Width = 26,
@@ -42,24 +45,22 @@ LibButtonFacade:AddSkin("Apathy",{
 	AutoCastable = {
 		Width = 54,
 		Height = 54,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 		OffsetX = 0.5,
 		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
 		Static = true,
-		Red = 0.25,
-		Green = 0.25,
-		Blue = 0.25,
-		Alpha = 1,
+		Color = {0.25, 0.25, 0.25, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
 	},
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Pushed]],
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Disabled = {
 		Hide = true,
@@ -67,19 +68,22 @@ LibButtonFacade:AddSkin("Apathy",{
 	Checked = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Checked]],
 		BlendMode = "ADD",
+		Color = {0, 0.75, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Gloss = {
 		Width = 32,
 		Height = 32,
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
 	},
 	Highlight = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
 		BlendMode = "ADD",
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
 	},
 	HotKey = {
 		Width = 32,
