@@ -75,7 +75,6 @@ LibButtonFacade:AddSkin("Apathy",{
 	Gloss = {
 		Width = 32,
 		Height = 32,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
 	},
 	Highlight = {
