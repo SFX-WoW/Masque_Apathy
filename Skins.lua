@@ -20,13 +20,6 @@ LibButtonFacade:AddSkin("Apathy",{
 		Height = 26,
 		TexCoords = {0.07, 0.93, 0.07, 0.93},
 	},
-	Border = {
-		Width = 32,
-		Height = 32,
-		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
-	},
 	Flash = {
 		Width = 32,
 		Height = 32,
@@ -42,13 +35,6 @@ LibButtonFacade:AddSkin("Apathy",{
 		Height = 26,
 		ModelScale = 0.8,
 	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
 	Normal = {
 		Width = 32,
 		Height = 32,
@@ -62,6 +48,13 @@ LibButtonFacade:AddSkin("Apathy",{
 		Color = {0, 0, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
+	Border = {
+		Width = 32,
+		Height = 32,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
+	},
 	Disabled = {
 		Hide = true,
 	},
@@ -72,10 +65,12 @@ LibButtonFacade:AddSkin("Apathy",{
 		Color = {0, 0.75, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
-	Gloss = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
+	AutoCastable = {
+		Width = 54,
+		Height = 54,
+		OffsetX = 0.5,
+		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Highlight = {
 		Width = 32,
@@ -83,6 +78,11 @@ LibButtonFacade:AddSkin("Apathy",{
 		BlendMode = "ADD",
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
+	},
+	Gloss = {
+		Width = 32,
+		Height = 32,
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
 	},
 	HotKey = {
 		Width = 32,
