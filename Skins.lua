@@ -16,9 +16,8 @@ LibButtonFacade:AddSkin("Apathy",{
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
-		Width = 26,
-		Height = 26,
-		TexCoords = {0.07, 0.93, 0.07, 0.93},
+		Width = 28,
+		Height = 28,
 	},
 	Flash = {
 		Width = 32,
@@ -27,8 +26,8 @@ LibButtonFacade:AddSkin("Apathy",{
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Cooldown = {
-		Width = 26,
-		Height = 26,
+		Width = 28,
+		Height = 28,
 	},
 	AutoCast = {
 		Width = 26,
@@ -87,8 +86,8 @@ LibButtonFacade:AddSkin("Apathy",{
 	HotKey = {
 		Width = 32,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 4,
+		OffsetX = 2,
+		OffsetY = 12,
 	},
 	Count = {
 		Width = 32,
