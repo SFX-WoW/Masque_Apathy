@@ -5,10 +5,10 @@ About:
 - This is a skin pack for ButtonFacade that will add some custom button styles to the supported action bars.
 
 Installation:
-- Download the package. For the most recent version, please check http://files.wowace.com.
+- Download the package.
 - Unzip the package to your WoW/Interface/AddOns/ directory.
 
 Feedback:
 - Please direct all questions and comments to the WoWAce.com forums.
 
-This package is not to be included in any compilation or redistributed without the permission of the author(s).
+This package and its contents are not to be duplicate, redistributed or included in any compilation without the permission of the author(s).
