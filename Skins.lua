@@ -1,4 +1,4 @@
---[[ Apathy for ButtonFacade ]]
+--[[ Apathy skin for Button Facade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then

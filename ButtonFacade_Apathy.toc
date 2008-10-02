@@ -8,7 +8,7 @@
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com
 ## X-RelSite-WoWI: 8870
-## X-Credits: JJ Sheets & Zeal.
+## X-Credits: JJ Sheets, Zeal
 
 ## X-Category: Action Bars
 ## OptionalDeps: LibButtonFacade, ButtonFacade
