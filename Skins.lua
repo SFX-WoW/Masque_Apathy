@@ -30,9 +30,11 @@ LibButtonFacade:AddSkin("Apathy",{
 		Height = 28,
 	},
 	AutoCast = {
-		Width = 28,
-		Height = 28,
-		-- ModelScale = 0.8,
+		Width = 26,
+		Height = 26,
+		OffsetX = 1,
+		OffsetY = -1,
+		AboveNormal = true;
 	},
 	Normal = {
 		Width = 32,
