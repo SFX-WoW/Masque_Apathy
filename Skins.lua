@@ -1,12 +1,12 @@
---[[ Apathy skin for Button Facade ]]
+--[[ Apathy @project-version@ ]]
 
-local LibButtonFacade = LibStub("LibButtonFacade",true)
-if not LibButtonFacade then
+local LBF = LibStub("LibButtonFacade", true)
+if not LBF then
 	return
 end
 
 -- Apathy
-LibButtonFacade:AddSkin("Apathy",{
+LBF:AddSkin("Apathy", {
 
 	-- Skin data start.
 	Backdrop = {
@@ -34,7 +34,7 @@ LibButtonFacade:AddSkin("Apathy",{
 		Height = 26,
 		OffsetX = 1,
 		OffsetY = -1,
-		AboveNormal = true;
+		AboveNormal = true,
 	},
 	Normal = {
 		Width = 32,
@@ -53,7 +53,6 @@ LibButtonFacade:AddSkin("Apathy",{
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Disabled = {
@@ -104,4 +103,4 @@ LibButtonFacade:AddSkin("Apathy",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
