@@ -22,7 +22,7 @@ LBF:AddSkin("Apathy", {
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Color = {1, 0, 0, 1},
+		Color = {1, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Cooldown = {
@@ -46,7 +46,7 @@ LBF:AddSkin("Apathy", {
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Color = {0, 0, 0, 1},
+		Color = {0, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Border = {
@@ -62,7 +62,7 @@ LBF:AddSkin("Apathy", {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {0, 0.75, 1, 1},
+		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	AutoCastable = {
@@ -76,7 +76,7 @@ LBF:AddSkin("Apathy", {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 1},
+		Color = {1, 1, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
 	},
 	Gloss = {
