@@ -5,8 +5,9 @@
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_apathy
-## X-Category: Action Bars
-## X-Credits: JJ Sheets, Zeal
-## OptionalDeps: LibButtonFacade, ButtonFacade
+## X-Category: Interface Enhancements
+## X-Credits: Zeal
+## X-WoWI-ID: 8870
+## Dependencies: ButtonFacade
 
 Skins.lua
