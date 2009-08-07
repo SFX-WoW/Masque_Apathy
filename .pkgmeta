@@ -1,6 +1,7 @@
 package-as: ButtonFacade_Apathy
 
 required-dependencies:
-   - buttonfacade
+  - buttonfacade
 
 license-output: License.txt
+manual-changelog: Release.txt

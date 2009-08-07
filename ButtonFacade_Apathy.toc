@@ -1,7 +1,7 @@
 ## Interface: 30200
 ## Title: ButtonFacade: |cffff8000Apathy|r
 ## Version: 3.2.@project-revision@
-## Notes: Apathy skin for Button Facade.
+## Notes: Apathy skin for ButtonFacade.
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_apathy
