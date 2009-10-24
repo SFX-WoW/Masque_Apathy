@@ -1,7 +1,15 @@
-## Interface: 30200
+## Interface: 30300
 ## Title: ButtonFacade: |cffff8000Apathy|r
-## Version: 3.2.@project-revision@
+## Version: 3.3.@project-revision@
 ## Notes: Apathy skin for ButtonFacade.
+## Notes-deDE: Apathy Skins für ButtonFacade.
+## Notes-esMX: Apathy texturas para ButtonFacade.
+## Notes-esES: Apathy texturas para ButtonFacade.
+## Notes-frFR: Skin Apathy pour ButtonFacade.
+## Notes-koKR: ButtonFacade에 대한 Apathy 스킨.
+## Notes-ruRU: Apathy Шкурки для ButtonFacade.
+## Notes-zhCN: 为ButtonFacade Apathy皮肤。
+## Notes-zhTW: Apathy皮膚的ButtonFacade。
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_apathy
