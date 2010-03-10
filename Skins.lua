@@ -1,13 +1,10 @@
 --[[ Apathy @project-version@ ]]
 
 local LBF = LibStub("LibButtonFacade", true)
-if not LBF then
-	return
-end
+if not LBF then return end
 
 -- Apathy
 LBF:AddSkin("Apathy", {
-
 	-- Skin data start.
 	Backdrop = {
 		Width = 32,
@@ -19,6 +16,12 @@ LBF:AddSkin("Apathy", {
 		Width = 28,
 		Height = 28,
 	},
+	Pushed = {
+		Width = 32,
+		Height = 32,
+		Color = {0, 0, 0, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
+	},
 	Flash = {
 		Width = 32,
 		Height = 32,
@@ -29,31 +32,12 @@ LBF:AddSkin("Apathy", {
 		Width = 28,
 		Height = 28,
 	},
-	AutoCast = {
-		Width = 26,
-		Height = 26,
-		OffsetX = 1,
-		OffsetY = -1,
-		AboveNormal = true,
-	},
 	Normal = {
 		Width = 32,
 		Height = 32,
 		Static = true,
 		Color = {0.25, 0.25, 0.25, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
-	},
-	Pushed = {
-		Width = 32,
-		Height = 32,
-		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
-	},
-	Border = {
-		Width = 32,
-		Height = 32,
-		BlendMode = "ADD",
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Disabled = {
 		Hide = true,
@@ -65,12 +49,12 @@ LBF:AddSkin("Apathy", {
 		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
+	Border = {
+		Width = 32,
+		Height = 32,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 0.3},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Highlight = {
 		Width = 32,
@@ -78,6 +62,20 @@ LBF:AddSkin("Apathy", {
 		BlendMode = "ADD",
 		Color = {1, 1, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
+	},
+	AutoCast = {
+		Width = 26,
+		Height = 26,
+		OffsetX = 1,
+		OffsetY = -1,
+		AboveNormal = true,
+	},
+	AutoCastable = {
+		Width = 54,
+		Height = 54,
+		OffsetX = 0.5,
+		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Gloss = {
 		Width = 32,
@@ -102,5 +100,4 @@ LBF:AddSkin("Apathy", {
 		OffsetY = -6,
 	},
 	-- Skin data end.
-
 }, true)
