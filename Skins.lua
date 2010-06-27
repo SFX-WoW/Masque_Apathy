@@ -52,7 +52,6 @@ LBF:AddSkin("Apathy", {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 0.3},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
 	Highlight = {
