@@ -8,18 +8,11 @@ LBF:AddSkin("Apathy", {
 	Backdrop = {
 		Width = 32,
 		Height = 32,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 28,
 		Height = 28,
-	},
-	Pushed = {
-		Width = 32,
-		Height = 32,
-		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Flash = {
 		Width = 32,
@@ -30,6 +23,12 @@ LBF:AddSkin("Apathy", {
 	Cooldown = {
 		Width = 28,
 		Height = 28,
+	},
+	Pushed = {
+		Width = 32,
+		Height = 32,
+		Color = {0, 0, 0, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
 	},
 	Normal = {
 		Width = 32,
@@ -54,18 +53,10 @@ LBF:AddSkin("Apathy", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
 	},
-	Highlight = {
+	Gloss = {
 		Width = 32,
 		Height = 32,
-		BlendMode = "ADD",
-		Color = {1, 1, 1, 0.3},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
-	},
-	AutoCast = {
-		Width = 26,
-		Height = 26,
-		OffsetX = 1,
-		OffsetY = -1,
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
 	},
 	AutoCastable = {
 		Width = 54,
@@ -74,17 +65,17 @@ LBF:AddSkin("Apathy", {
 		OffsetY = -0.5,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
-	Gloss = {
+	Highlight = {
 		Width = 32,
 		Height = 32,
+		BlendMode = "ADD",
 		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
+		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
 	},
-	HotKey = {
+	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetX = 2,
-		OffsetY = 12,
+		OffsetY = -6,
 	},
 	Count = {
 		Width = 32,
@@ -92,9 +83,16 @@ LBF:AddSkin("Apathy", {
 		OffsetX = -2,
 		OffsetY = -6,
 	},
-	Name = {
+	HotKey = {
 		Width = 32,
 		Height = 10,
-		OffsetY = -6,
+		OffsetX = -2,
+		OffsetY = 6,
+	},
+	AutoCast = {
+		Width = 26,
+		Height = 26,
+		OffsetX = 1,
+		OffsetY = -1,
 	},
 }, true)
