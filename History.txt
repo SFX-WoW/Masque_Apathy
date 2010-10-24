@@ -1,8 +1,13 @@
 Release Notes:
 
+4.0.82
+
+- Updated for new LBF features.
+- Adjust the font sizes a little.
+
 4.0.80
 
-- Update ToC to 4000.
+- Updated ToC to 4000.
 - HotKey tweaks.
 
 3.3.79
@@ -16,7 +21,7 @@ Release Notes:
 
 3.3.75
 
-- Update ToC to 3.3.
+- Updated ToC to 3.3.
 - Localization update.
 - Change the format/filename of the change log.
 - License update.

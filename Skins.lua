@@ -75,24 +75,27 @@ LBF:AddSkin("Apathy", {
 	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetY = -6,
+		OffsetY = 5,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = -6,
+		OffsetX = -3,
+		OffsetY = 5,
+		FontSize = 12,
 	},
 	HotKey = {
 		Width = 32,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 6,
+		OffsetX = 1,
+		OffsetY = -6,
+		FontSize = 12,
 	},
 	AutoCast = {
 		Width = 26,
 		Height = 26,
 		OffsetX = 1,
 		OffsetY = -1,
+		FontSize = 12,
 	},
 }, true)
