@@ -97,6 +97,5 @@ LBF:AddSkin("Apathy", {
 		Height = 26,
 		OffsetX = 1,
 		OffsetY = -1,
-		FontSize = 12,
 	},
 }, true)

@@ -1,6 +1,6 @@
 Release Notes:
 
-4.0.83
+4.0.84
 
 - Updated for new LBF features.
 - Adjust the font sizes a little.
