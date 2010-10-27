@@ -5,6 +5,7 @@ if not LBF then return end
 
 -- Apathy
 LBF:AddSkin("Apathy", {
+	LBF_Version = 40000,
 	Backdrop = {
 		Width = 32,
 		Height = 32,
