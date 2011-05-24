@@ -2,6 +2,14 @@
 ## Title: Masque: |cffff8000Apathy|r
 ## Version: 4.1.@project-revision@
 ## Notes: Apathy skin for Masque.
+## Notes-deDE: Apathy Skins für Masque.
+## Notes-esMX: Apathy texturas para Masque.
+## Notes-esES: Apathy texturas para Masque.
+## Notes-frFR: Skin Apathy pour Masque.
+## Notes-koKR: Masque에 대한 Apathy 스킨.
+## Notes-ruRU: Apathy Шкурки для Masque.
+## Notes-zhCN: 为Masque Apathy皮肤。
+## Notes-zhTW: Apathy皮膚的Masque。
 ## Author: StormFX
 ## OptionalDeps: Masque
 ## X-Website: http://www.wowace.com/projects/masque_apathy
