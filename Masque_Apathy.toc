@@ -1,0 +1,12 @@
+## Interface: 40100
+## Title: Masque: |cffff8000Apathy|r
+## Version: 4.1.@project-revision@
+## Notes: Apathy skin for Masque.
+## Author: StormFX
+## OptionalDeps: Masque
+## X-Website: http://www.wowace.com/projects/masque_apathy
+## X-Category: Interface Enhancements
+## X-Credits: Zeal
+## X-WoWI-ID: 8870
+
+Skins.lua

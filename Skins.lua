@@ -1,11 +1,13 @@
 --[[ Apathy @project-version@ ]]
 
-local LBF = LibStub("LibButtonFacade", true)
-if not LBF then return end
+if not LibMasque then return end
 
 -- Apathy
-LBF:AddSkin("Apathy", {
-	LBF_Version = 40000,
+LibMasque("Button"):AddSkin("Apathy", {
+	Author = "StormFX",
+	Version = "4.1.@project-revision@",
+	Shape = "Square",
+	Masque_Version = 40100,
 	Backdrop = {
 		Width = 32,
 		Height = 32,
@@ -34,7 +36,6 @@ LBF:AddSkin("Apathy", {
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Static = true,
 		Color = {0.3, 0.3, 0.3, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
 	},
@@ -76,21 +77,25 @@ LBF:AddSkin("Apathy", {
 	Name = {
 		Width = 32,
 		Height = 10,
+		OffsetX = 2,
 		OffsetY = 5,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
-		OffsetX = -3,
+		OffsetX = -4,
 		OffsetY = 5,
-		FontSize = 12,
 	},
 	HotKey = {
 		Width = 32,
 		Height = 10,
 		OffsetX = 1,
 		OffsetY = -6,
-		FontSize = 12,
+	},
+	Duration = {
+		Width = 32,
+		Height = 10,
+		OffsetY = -2,
 	},
 	AutoCast = {
 		Width = 26,
