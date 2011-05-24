@@ -1,6 +1,6 @@
-== v4.1.86 ALPHA ==
+== v4.1.87 ALPHA ==
 
 <<color red>>** IMPORTANT: ** This is an **alpha** and is for testing purposes only.<</color>>
 
-* Renamed to "Masque_Apathy".
+* Renamed to **Masque_Apathy**.
 * Updated to Masque's API.

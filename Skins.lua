@@ -11,7 +11,7 @@ LibMasque("Button"):AddSkin("Apathy", {
 	Backdrop = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Backdrop]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 28,
@@ -21,7 +21,7 @@ LibMasque("Button"):AddSkin("Apathy", {
 		Width = 32,
 		Height = 32,
 		Color = {1, 0, 0, 0.3},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Overlay]],
 	},
 	Cooldown = {
 		Width = 28,
@@ -31,13 +31,13 @@ LibMasque("Button"):AddSkin("Apathy", {
 		Width = 32,
 		Height = 32,
 		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Overlay]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Overlay]],
 	},
 	Normal = {
 		Width = 32,
 		Height = 32,
 		Color = {0.3, 0.3, 0.3, 1},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Normal]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Normal]],
 	},
 	Disabled = {
 		Hide = true,
@@ -47,18 +47,18 @@ LibMasque("Button"):AddSkin("Apathy", {
 		Height = 32,
 		BlendMode = "ADD",
 		Color = {0, 0.8, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 	},
 	Border = {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 	},
 	Gloss = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Gloss]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Gloss]],
 	},
 	AutoCastable = {
 		Width = 54,
@@ -72,7 +72,7 @@ LibMasque("Button"):AddSkin("Apathy", {
 		Height = 32,
 		BlendMode = "ADD",
 		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Apathy\Textures\Highlight]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Highlight]],
 	},
 	Name = {
 		Width = 32,
