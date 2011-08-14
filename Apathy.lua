@@ -1,13 +1,23 @@
---[[ Apathy @project-version@ ]]
+--[[
+	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For license information,
+	please see the included License.txt file.
 
-if not LibMasque then return end
+	* File.....: Apathy.lua
+	* Revision.: @file-revision@
+	* Author...: StormFX
+
+	Apathy Skin
+]]
+
+local MSQ = LibStub("Masque")
+if not MSQ then return end
 
 -- Apathy
-LibMasque("Button"):AddSkin("Apathy", {
+MSQ:AddSkin("Apathy", {
 	Author = "StormFX",
-	Version = "4.1.@project-revision@",
+	Version = "4.2.@project-revision@",
 	Shape = "Square",
-	Masque_Version = 40100,
+	Masque_Version = 40200,
 	Backdrop = {
 		Width = 32,
 		Height = 32,
