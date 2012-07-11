@@ -1,4 +1,8 @@
-=== v4.2.96 ===
+== v4.3.98 ==
+
+* Updated to 4.3.
+
+== v4.2.96 ==
 
 * Renamed to **Masque_Apathy**.
 * Updated to Masque's API.
