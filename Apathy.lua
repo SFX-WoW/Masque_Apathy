@@ -114,3 +114,14 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = -1,
 	},
 }, true)
+
+-- No Shadow
+MSQ:AddSkin("Apathy: No Shadow", {
+	Template = "Apathy",
+	Normal = {
+		Width = 32,
+		Height = 32,
+		Color = {0.3, 0.3, 0.3, 1},
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Normal_NS]],
+	},
+}, true)
