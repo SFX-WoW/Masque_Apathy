@@ -1,6 +1,6 @@
-## Interface: 60100
+## Interface: 60200
 ## Title: Masque: |cffff8000Apathy|r
-## Version: 6.1.0
+## Version: 6.2.0
 ## Author: StormFX
 ## Notes: Apathy skin for Masque.
 ## Notes-zhTW: Masque的Apathy皮膚。
