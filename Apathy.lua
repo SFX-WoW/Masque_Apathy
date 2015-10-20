@@ -1,12 +1,13 @@
 --[[
+
 	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File.....: Apathy.lua
-	* Revision.: @file-revision@
-	* Author...: StormFX
+	* File...: Apathy.lua
+	* Date...: @file-date-iso@
+	* Hash...: @file-abbreviated-hash@
+	* Author.: StormFX
 
-	Apathy Skin
 ]]
 
 local MSQ = LibStub("Masque", true)
@@ -15,7 +16,7 @@ if not MSQ then return end
 -- Apathy
 MSQ:AddSkin("Apathy", {
 	Author = "StormFX",
-	Version = "6.2.0",
+	Version = "@project-version@",
 	Shape = "Square",
 	Masque_Version = 60200,
 	Backdrop = {
@@ -34,6 +35,10 @@ MSQ:AddSkin("Apathy", {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Overlay]],
 	},
 	Cooldown = {
+		Width = 28,
+		Height = 28,
+	},
+	ChargeCooldown = {
 		Width = 28,
 		Height = 28,
 	},
