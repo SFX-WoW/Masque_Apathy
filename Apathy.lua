@@ -92,20 +92,19 @@ MSQ:AddSkin("Apathy", {
 	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetX = 2,
-		OffsetY = 5,
+		OffsetX = 1,
+		OffsetY = 6,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
 		OffsetX = -4,
-		OffsetY = 5,
+		OffsetY = 7,
 	},
 	HotKey = {
 		Width = 32,
 		Height = 10,
-		OffsetX = 1,
-		OffsetY = -6,
+		OffsetY = -7,
 	},
 	Duration = {
 		Width = 32,
@@ -120,7 +119,7 @@ MSQ:AddSkin("Apathy", {
 	},
 }, true)
 
--- No Shadow
+-- Apathy: No Shadow
 MSQ:AddSkin("Apathy: No Shadow", {
 	Template = "Apathy",
 	Normal = {
