@@ -112,7 +112,7 @@ MSQ:AddSkin("Apathy", {
 		Height = 10,
 		OffsetY = -2,
 	},
-	AutoCast = {
+	Shine = {
 		Width = 26,
 		Height = 26,
 		OffsetX = 1,
