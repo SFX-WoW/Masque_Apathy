@@ -9,7 +9,7 @@ _**Note:** You must have [Masque][] installed to use this add-on._
 This skin set contains the following skins:
 
 - Apathy
-- Apathy: No Shadow
+- Apathy - No Shadow
 
 ### Installation ###
 
