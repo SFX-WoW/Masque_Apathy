@@ -29,7 +29,7 @@ Install the package through your preferred add-on manager. You can also install 
 
 ### Credits ###
 
-Thanks to [Zeal](https://www.wowace.com/members/zeal) for the original _Vol_ skin.
+- [Zeal](https://www.wowace.com/members/zeal) for the original _Vol_ skin.
 
 ### Feedback ###
 

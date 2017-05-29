@@ -34,7 +34,7 @@ This skin set contains the following skins:
 
 [COLOR=Orange][SIZE="4"]Credits[/SIZE][/COLOR]
 
-Thanks to [URL="https://www.wowace.com/members/zeal"]Zeal[/URL] for the original [I]Vol[/I] skin.
+[*] [URL="https://www.wowace.com/members/zeal"]Zeal[/URL] for the original [I]Vol[/I] skin.
 
 [COLOR=Orange][SIZE="4"]Feedback[/SIZE][/COLOR]
 
