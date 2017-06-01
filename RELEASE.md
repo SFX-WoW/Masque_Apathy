@@ -1,6 +1,7 @@
 ### 7.2.1 ###
 
-- _Apathy: No Shadow_ renamed to _Apathy - No Shadow_.
-- Masque version update.
-- Update ReadMe.
-- Update locales.
+- Added support for Equipped and Cooldown colors.
+	- _These features require Masque 7.2.1 or later._
+- Updated Masque_Version.
+- Updated ReadMe.md.
+- Updated locales.
