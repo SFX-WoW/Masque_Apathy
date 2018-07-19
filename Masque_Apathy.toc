@@ -1,6 +1,6 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: Masque: |cffff8000Apathy|r
-## Version: 7.3.0
+## Version: 8.0.0
 ## Author: StormFX
 ## Dependencies: Masque
 ## Notes: Apathy skin for Masque.
@@ -8,6 +8,7 @@
 ## Notes-esES: Skin Apathy para Masque.
 ## Notes-esMX: Skin Apathy para Masque.
 ## Notes-itIT: Skin Apathy per Masque.
+## Notes-ruRU: Скин Apathy для Masque.
 ## Notes-zhTW: Masque的Apathy皮膚。
 ## X-Website: https://www.wowace.com/projects/masque-apathy
 ## X-Category: Interface Enhancements
