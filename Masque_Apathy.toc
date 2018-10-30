@@ -15,4 +15,5 @@
 ## X-Credits: Zeal
 ## X-WoWI-ID: 8870
 
-Apathy.lua
+# Skins
+Skins.lua
