@@ -52,8 +52,9 @@ MSQ:AddSkin("Apathy", {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Backdrop]],
 	},
 	Icon = {
-		Width = 28,
-		Height = 28,
+		Width = 27,
+		Height = 27,
+		TexCoords = {0.02, 0.98, 0.02, 0.98},
 	},
 	Flash = {
 		Width = 32,
@@ -132,13 +133,13 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = -2,
 	},
 	Cooldown = {
-		Width = 28,
-		Height = 28,
+		Width = 24,
+		Height = 24,
 		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
-		Width = 28,
-		Height = 28,
+		Width = 24,
+		Height = 24,
 	},
 	Shine = {
 		Width = 26,
