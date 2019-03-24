@@ -133,13 +133,13 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = -2,
 	},
 	Cooldown = {
-		Width = 24,
-		Height = 24,
+		Width = 25,
+		Height = 25,
 		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
-		Width = 24,
-		Height = 24,
+		Width = 25,
+		Height = 25,
 	},
 	Shine = {
 		Width = 26,
