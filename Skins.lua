@@ -41,7 +41,7 @@ MSQ:AddSkin("Apathy", {
 	Masque_Version = 80100,
 
 	-- Info
-	Description = L["A minimalistic skin with thin borders and a shadow."],
+	Description = L["A square, minimalistic skin with thin borders."],
 	Version = Version,
 	Author = "StormFX",
 	Websites = Websites,
