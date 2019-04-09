@@ -6,7 +6,7 @@
 	* File...: Skins.lua
 	* Author.: StormFX
 
-	Apathy Skins
+	Apathy Skin
 ]]
 
 -- GLOBALS: GetAddOnMetadata, LibStub
@@ -14,18 +14,17 @@
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, Core = ...
+
 ----------------------------------------
 -- Locals
-----------------------------------------
-
-local AddOn, Core = ...
+---
 
 -- Locale
 local L = Core.Locale
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
-local Authors = "StormFX"
 local Websites = {
 	"https://github.com/stormfx/masque_apathy",
 	"https://www.wowace.com/projects/masque-apathy",
@@ -35,96 +34,70 @@ local Websites = {
 
 ----------------------------------------
 -- Apathy
-----------------------------------------
+---
 
 MSQ:AddSkin("Apathy", {
 	Shape = "Square",
-	Group = "Apathy",
-	Order = 1,
-	Version = Version,
-	Authors = Authors,
-	Websites = Websites,
+	Masque_Version = 80100,
+
+	-- Info
 	Description = L["A minimalistic skin with thin borders and a shadow."],
-	Masque_Version = 80000,
+	Version = Version,
+	Author = "StormFX",
+	Websites = Websites,
+
+	-- Skin
 	Backdrop = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Backdrop]],
+		Color = {0, 0, 0, 0.5},
+		Width = 25,
+		Height = 25,
+		UseColor = true,
 	},
 	Icon = {
+		TexCoords = {0.02, 0.98, 0.02, 0.98},
 		Width = 27,
 		Height = 27,
-		TexCoords = {0.02, 0.98, 0.02, 0.98},
 	},
-	Flash = {
-		Width = 32,
-		Height = 32,
-		Color = {1, 0, 0, 0.3},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Overlay]],
-	},
-	Pushed = {
-		Width = 32,
-		Height = 32,
+	Shadow = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Shadow]],
 		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Overlay]],
+		Width = 32,
+		Height = 32,
 	},
 	Normal = {
-		Width = 32,
-		Height = 32,
-		Color = {0.3, 0.3, 0.3, 1},
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Normal]],
-	},
-	Disabled = {
-		Hide = true,
-	},
-	Checked = {
+		Color = {0.3, 0.3, 0.3, 1},
 		Width = 32,
 		Height = 32,
-		BlendMode = "BLEND",
-		Color = {0, 0.7, 0.9, 0.7},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 	},
-	Border = {
-		Width = 32,
-		Height = 32,
-		BlendMode = "BLEND",
-		Color = {0, 1, 0, 0.5},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+	--Disabled = {Hide = true,},
+	Pushed = {
+		Color = {0, 0, 0, 0.5},
+		DrawLayer = "BORDER",
+		DrawLevel = 1,
+		Width = 25,
+		Height = 25,
+		UseColor = true,
 	},
-	Gloss = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Gloss]],
-	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
-	Highlight = {
-		Width = 32,
-		Height = 32,
+	Flash = {
+		Color = {1, 0, 0, 0.4},
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Highlight]],
-	},
-	Name = {
-		Width = 32,
-		Height = 10,
-		OffsetX = 1,
-		OffsetY = 6,
+		DrawLayer = "BORDER",
+		DrawLevel = 0,
+		Width = 25,
+		Height = 25,
+		UseColor = true,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
 		OffsetX = -4,
-		OffsetY = 7,
+		OffsetY = 6,
 	},
 	HotKey = {
 		Width = 32,
 		Height = 10,
+		OffsetX = -4,
 		OffsetY = -7,
 	},
 	Duration = {
@@ -132,36 +105,124 @@ MSQ:AddSkin("Apathy", {
 		Height = 10,
 		OffsetY = -2,
 	},
-	Cooldown = {
-		Width = 25,
-		Height = 25,
+	Checked = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		Color = {0, 0.7, 0.9, 0.7},
+		BlendMode = "ADD",
+		Width = 32,
+		Height = 32,
+	},
+	Border = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		BlendMode = "ADD",
+		Width = 32,
+		Height = 32,
+		Aura = {
+			Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+			Width = 32,
+			Height = 32,
+		},
+		Debuff = {
+			Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+			Width = 32,
+			Height = 32,
+		},
+		Enchant = {
+			Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+			Color = {0.6, 0.2, 0.9, 1},
+			Width = 32,
+			Height = 32,
+		},
+		Item = {
+			Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+			Width = 32,
+			Height = 32,
+		},
+	},
+	IconBorder = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		Width = 30,
+		Height = 30,
+	},
+	SlotHighlight = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		Color = {0, 0.7, 0.9, 0.7},
+		BlendMode = "ADD",
+		Width = 32,
+		Height = 32,
+	},
+	Gloss = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Gloss]],
+		Width = 32,
+		Height = 32,
+	},
+	IconOverlay = {
+		Width = 30,
+		Height = 30,
+	},
+	NewAction = {
+		BlendMode = "ADD",
+		DrawLayer = "BORDER",
+		DrawLevel = 0,
+		Width = 40,
+		Height = 40,
+	},
+	SpellHighlight = {
+		BlendMode = "ADD",
+		DrawLayer = "BORDER",
+		DrawLevel = 0,
+		Width = 40,
+		Height = 40,
+	},
+	AutoCastable = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Indicator]],
+		Color = {1, 1, 0, 1},
+		Width = 32,
+		Height = 32,
+	},
+	SearchOverlay = {
+		Width = 30,
+		Height = 30,
 		Color = {0, 0, 0, 0.7},
+		Point = "CENTER",
 	},
-	ChargeCooldown = {
-		Width = 25,
-		Height = 25,
+	ContextOverlay = {
+		Color = {0, 0, 0, 0.7},
+		Width = 30,
+		Height = 30,
+		Point = "CENTER",
 	},
-	Shine = {
+	NewItem = {
+		DrawLayer = "BORDER",
+		DrawLevel = 0,
+		Width = 28,
+		Height = 28,
+	},
+	Highlight = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		Color = {1, 1, 1, 0.5},
+		BlendMode = "ADD",
+		Width = 32,
+		Height = 32,
+	},
+	Name = {
+		Width = 32,
+		Height = 10,
+		OffsetY = 5,
+	},
+	AutoCastShine = {
 		Width = 26,
 		Height = 26,
 		OffsetX = 1,
 		OffsetY = -1,
 	},
-}, true)
-
-----------------------------------------
--- Apathy - No Shadow
-----------------------------------------
-
-MSQ:AddSkin("Apathy - No Shadow", {
-	Title = "No Shadow",
-	Order = 2,
-	Template = "Apathy",
-	Description = L["An alternate version of Apathy without a shadow."],
-	Normal = {
-		Width = 32,
-		Height = 32,
-		Color = {0.3, 0.3, 0.3, 1},
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Normal_NS]],
+	Cooldown = {
+		Color = {0, 0, 0, 0.7},
+		Width = 25,
+		Height = 25,
+	},
+	ChargeCooldown = {
+		Width = 25,
+		Height = 25,
 	},
 }, true)
