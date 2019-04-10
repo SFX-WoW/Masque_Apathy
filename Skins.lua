@@ -153,6 +153,7 @@ MSQ:AddSkin("Apathy", {
 	},
 	Gloss = {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Gloss]],
+		Color = {1, 1, 1, 0.5},
 		Width = 32,
 		Height = 32,
 	},
