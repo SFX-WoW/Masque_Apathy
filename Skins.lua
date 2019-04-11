@@ -141,8 +141,8 @@ MSQ:AddSkin("Apathy", {
 	},
 	IconBorder = {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
-		Width = 30,
-		Height = 30,
+		Width = 32,
+		Height = 32,
 	},
 	SlotHighlight = {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
