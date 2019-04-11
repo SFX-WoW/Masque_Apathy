@@ -1,8 +1,5 @@
 ## Interface: 80100
 ## Title: Masque: Apathy
-## Version: @project-version@
-## Author: StormFX
-## Dependencies: Masque
 ## Notes: Apathy skin for Masque.
 ## Notes-deDE: Apathy-Skin für Masque.
 ## Notes-esES: Skin Apathy para Masque.
@@ -10,9 +7,14 @@
 ## Notes-itIT: Skin Apathy per Masque.
 ## Notes-ruRU: Скин Apathy для Masque.
 ## Notes-zhTW: Masque的Apathy皮膚。
+## Version: @project-version@
+## Author: StormFX
+## Dependencies: Masque
+
 ## X-Website: https://www.wowace.com/projects/masque-apathy
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
+## X-Curse-Project-ID: 13593
 ## X-WoWI-ID: 8870
 
 # Locales
