@@ -7,6 +7,7 @@
 	* Author.: StormFX
 
 	Apathy Skin
+
 ]]
 
 -- GLOBALS: GetAddOnMetadata, LibStub
@@ -182,16 +183,18 @@ MSQ:AddSkin("Apathy", {
 		Height = 32,
 	},
 	SearchOverlay = {
+		Color = {0, 0, 0, 0.7},
 		Width = 30,
 		Height = 30,
-		Color = {0, 0, 0, 0.7},
 		Point = "CENTER",
+		UseColor = true,
 	},
 	ContextOverlay = {
 		Color = {0, 0, 0, 0.7},
 		Width = 30,
 		Height = 30,
 		Point = "CENTER",
+		UseColor = true,
 	},
 	NewItem = {
 		DrawLayer = "BORDER",
