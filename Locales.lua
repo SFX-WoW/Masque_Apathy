@@ -38,5 +38,6 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "ptBR" then
 --elseif Locale == "ruRU" then
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
+elseif Locale == "zhTW" then
+	L["A square, minimalistic skin with thin borders."] = "一個方形，簡約帶薄外框的主題皮膚。"
 end
