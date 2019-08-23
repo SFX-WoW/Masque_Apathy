@@ -1,4 +1,4 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: Masque: Apathy
 
 ## Notes: Apathy skin for Masque.
@@ -13,7 +13,7 @@
 ## Author: StormFX
 ## Dependencies: Masque
 
-## X-Website: https://www.wowace.com/projects/masque-apathy
+## X-Website: https://github.com/StormFX/Masque_Apathy
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
 ## X-Curse-Project-ID: 13593
