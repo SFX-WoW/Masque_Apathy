@@ -1,7 +1,7 @@
 --[[
 
 	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file.
+	please see the included License.txt file or visit https://github.com/StormFX/Masque_Apathy.
 
 	* File....: Locales.lua
 	* Authors.: StormFX
