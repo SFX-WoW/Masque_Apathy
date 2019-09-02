@@ -27,7 +27,7 @@ local L = Core.Locale
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
 local Websites = {
-	"https://github.com/stormfx/masque_apathy",
+	"https://github.com/StormFX/Masque_Apathy",
 	"https://www.wowace.com/projects/masque-apathy",
 	"https://www.curseforge.com/wow/addons/masque-apathy",
 	"https://www.wowinterface.com/downloads/info8870",
@@ -89,7 +89,7 @@ MSQ:AddSkin("Apathy", {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0.3, 0.3, 0.3, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Caith\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Apathy\Textures\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 0.3, 0.3, 0.5},
 		BlendMode = "BLEND",
@@ -202,7 +202,7 @@ MSQ:AddSkin("Apathy", {
 	},
 	IconBorder = {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
-		-- RelicTexture = [[Interface\AddOns\Masque_Caith\Textures\Border]],
+		-- RelicTexture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
