@@ -39,7 +39,7 @@ local Websites = {
 
 MSQ:AddSkin("Apathy", {
 	Shape = "Square",
-	Masque_Version = 80100,
+	Masque_Version = 80200,
 
 	-- Info
 	Description = L["A square, minimalistic skin with thin borders."],
@@ -240,7 +240,7 @@ MSQ:AddSkin("Apathy", {
 	SlotHighlight = {
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0.7, 0.9, 0.7},
+		Color = {1, 1, 1, 0.3},
 		BlendMode = "ADD",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
