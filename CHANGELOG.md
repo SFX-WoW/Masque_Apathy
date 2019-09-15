@@ -1,6 +1,9 @@
-## 8.2.5
+## 8.2.6
 
-_**Warning:** This version requires the latest version of [Masque](https://github.com/StormFX/Masque/releases)._
+- Added new `Backdrop` textures for various button types.
+- Updated the color and blend mode of some regions.
+
+## 8.2.5
 
 - Updated the skin info for _Masque_'s UI changes.
 - Added _Classic_ support.
@@ -13,14 +16,18 @@ _**Warning:** This version requires the latest version of [Masque](https://githu
   - `Flash`
   - `Pushed`
 - Reduced the default intensity of the `Gloss` region.
-- Removed the "Apathy - No Shadow" skin since it's redundant.
+- Removed the "No Shadow" skin since it's redundant.
 - Updated the `Masque_Version`.
 - Updated the ToC to 80200.
 
 ### Feedback
 
-For bug reports and suggestions, please use the [issue tracker](https://github.com/StormFX/Masque_Apathy/issues "Report an Issue") on GitHub.
+For bug reports and suggestions, please use the [issue tracker] on GitHub.
 
 ### Localization
 
-To help translate _Masque: Apathy_, please use the [localization system](https://www.wowace.com/projects/masque-apathy/localization "Translate on WoW Ace") on WoW Ace or [contribute directly](https://github.com/StormFX/Masque_Apathy "Translate on GitHub") on GitHub.
+To help translate this add-on, please use the [localization system] on WoW Ace or [contribute directly] on GitHub.
+
+[issue tracker]: https://github.com/StormFX/Masque_Apathy/issues (Report an Issue)
+[localization system]: https://www.wowace.com/projects/masque-apathy/localization (Translate on WoW Ace)
+[contribute directly]: https://github.com/StormFX/Masque_Apathy (Translate on GitHub)
