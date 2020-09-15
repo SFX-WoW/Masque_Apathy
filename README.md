@@ -1,75 +1,71 @@
-[![Build Status][Badge-Travis]][Travis]
-[![Latest][Badge-Latest]][Latest]
-[![Discord][Badge-Discord]][Discord]
-[![Patreon][Badge-Patreon]][Patreon]
-[![PayPal][Badge-PayPal]][PayPal]
+[![Build][SVG-Build]][Build]
+[![Discord][SVG-Discord]][Discord]
 
 ## About
 
-_Apathy_ is an add-on for [World of Warcraft] that adds a custom skin for [Masque].
+**Masque: Apathy** is an add-on for [World of Warcraft] that adds a custom skin for [Masque].
 
-_**Note:** You must have [Masque] installed to use this skin._
+## Skin
+
+This add-on contains the following skin:
+
+- **Apathy** - A square, minimalistic skin with thin borders. Inspired by the _Vol_ skin for _cyCircled_.
+
+## Requirements
+
+This add-on requires [Masque].
 
 ## Installation
 
-Install the package through your preferred add-on manager. You can also install the add-on manually using the following steps:
-
-1. Download the package from one of the following sites:
-    - [GitHub]
-    - [WoW Ace]
-    - [CurseForge]
-    - [WoW Interface]
-2. Extract the package to the appropriate directory:
-    - Retail: `World of Warcraft\_retail_\Interface\AddOns`
-    - Classic: `World of Warcraft\_classic_\Interface\AddOns`
-
-## Links
-
-- [Masque]
-- [Masque Wiki]
-- [Skin List]
-- [Masque on Facebook]
+Install the package through your preferred add-on manager. Alternatively, you can find manual instructions on the [project wiki][Wiki].
 
 ## Credits
 
-- _Zeal_ for the original _Vol_ skin.
+- _Zeal_ for the original **Vol** skin.
 
 ## Feedback
 
-For bug reports and suggestions, please use the [issue tracker] on GitHub.
+For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
 
 ## Localization
 
-To help translate this add-on, please use the [localization system] on WoW Ace or [contribute directly] on GitHub.
+To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
+
+## Support
+
+If you'd like to support the development of this and other projects, you can use one of the options below.
+
+- [Donate via PayPal][Donate]
+- [Sponsor on GitHub][Sponsor]
+
+## Links
+
+- [Masque][Masque]
+- [CurseForge][CurseForge]
+- [WoW Ace][WoW Ace]
+- [WoW Interface]
 
 [Links]: #
 
-[Masque]: https://github.com/StormFX/Masque (Download Masque)
+[Build]: https://github.com/SFX-WoW/Masque_Apathy/actions?query=workflow%3ARelease (Build Status)
+[Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
+
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
+[Masque]: https://github.com/SFX-WoW/Masque (Download Masque)
 
-[GitHub]: https://github.com/StormFX/Masque_Apathy (Download from GitHub)
-[WoW Ace]: https://www.wowace.com/projects/masque_apathy (Download from WoW Ace)
-[CurseForge]: https://www.curseforge.com/wow/addons/masque-apathy (Download from CurseForge)
-[WoW Interface]: https://www.wowinterface.com/downloads/info8870 (Download from WoW Interface)
+[Issue Tracker]: https://github.com/SFX-WoW/Masque_Apathy/issues (Report an Issue)
+[Localization System]: https://www.wowace.com/projects/masque-apathy/localization (Translate on WoW Ace)
+[Wiki]: https://github.com/SFX-WoW/Masque_Apathy/wiki (View the Wiki)
 
-[Masque Wiki]: https://github.com/StormFX/Masque/wiki (Masque Wiki)
-[Skin List]: https://github.com/StormFX/Masque/wiki/Skin-List (Masque Skin List)
-[Masque on Facebook]: https://www.facebook.com/masqueui (Masque on Facebook)
+[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 
-[issue tracker]: https://github.com/StormFX/Masque_Apathy/issues (Report an Issue)
-[localization system]: https://www.wowace.com/projects/masque-apathy/localization (Translate on WoW Ace)
-[contribute directly]: https://github.com/StormFX/Masque_Apathy (Translate on GitHub)
-
-[Travis]: https://travis-ci.org/StormFX/Masque_Apathy (Latest Build)
-[Latest]: https://github.com/StormFX/Masque_Apathy/releases (Latest Release)
-[Discord]: https://discord.gg/DDVqkd6 (Discord)
-[Patreon]: https://www.patreon.com/stormfx (Donate via Patreon)
-[PayPal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EELAK9TC4W4KQ (Donate via PayPal)
+[CurseForge]: https://www.curseforge.com/wow/addons/masque-apathy (View on CurseForge)
+[GitHub]: https://github.com/SFX-WoW/Masque_Apathy (View on GitHub)
+[WoW Ace]: https://www.wowace.com/projects/masque-apathy (View on WoW Ace)
+[WoW Interface]: https://www.wowinterface.com/downloads/info8870 (View on WoW Interface)
 
 [Images]: #
 
-[Badge-Travis]: https://img.shields.io/travis/StormFX/Masque_Apathy/master?label=Build&style=flat-square
-[Badge-Latest]: https://img.shields.io/github/v/release/StormFX/Masque_Apathy?include_prereleases&label=Latest&style=flat-square
-[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?style=flat-square
-[Badge-Patreon]: https://img.shields.io/badge/Patreon-Donate-f96854?style=flat-square
-[Badge-PayPal]: https://img.shields.io/badge/PayPal-Donate-009CDE?style=flat-square
+[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/Masque_Apathy/Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
