@@ -8,8 +8,8 @@
 
 ## Notes: Apathy skin for Masque.
 ## Notes-deDE: Apathy-Skin für Masque.
-## Notes-esES: Skin Apathy para Masque.
 ## Notes-esMX: Skin Apathy para Masque.
+## Notes-esES: Skin Apathy para Masque.
 ## Notes-frFR: Skins de Apathy pour Masque.
 ## Notes-itIT: Skin Apathy per Masque.
 ## Notes-ruRU: Скин Apathy для Masque.
