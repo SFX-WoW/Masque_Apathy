@@ -10,6 +10,7 @@
 ## Notes-deDE: Apathy-Skin für Masque.
 ## Notes-esES: Skin Apathy para Masque.
 ## Notes-esMX: Skin Apathy para Masque.
+## Notes-frFR: Skins de Apathy pour Masque.
 ## Notes-itIT: Skin Apathy per Masque.
 ## Notes-ruRU: Скин Apathy для Masque.
 ## Notes-zhTW: Masque的Apathy皮膚。
@@ -18,7 +19,7 @@
 ## Author: StormFX
 ## Dependencies: Masque
 
-## X-Website: https://github.com/StormFX/Masque_Apathy
+## X-Website: https://github.com/SFX-WoW/Masque_Apathy
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
 ## X-Curse-Project-ID: 13593
