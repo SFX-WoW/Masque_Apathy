@@ -1,7 +1,7 @@
 --[[
 
-	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/Masque_Apathy.
+	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Apathy.
 
 	* File...: Skins.lua
 	* Author.: StormFX
@@ -27,7 +27,7 @@ local L = Core.Locale
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
 local Websites = {
-	"https://github.com/StormFX/Masque_Apathy",
+	"https://github.com/SFX-WoW/Masque_Apathy",
 	"https://www.wowace.com/projects/masque-apathy",
 	"https://www.curseforge.com/wow/addons/masque-apathy",
 	"https://www.wowinterface.com/downloads/info8870",
