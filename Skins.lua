@@ -389,8 +389,8 @@ MSQ:AddSkin("Apathy", {
 		-- SetAllPoints = nil,
 	},
 	QuestBorder = {
-		Border = [[Interface\AddOns\Masque_Caith\Textures\Border]],
-		Texture = [[Interface\AddOns\Masque_Caith\Textures\Quest]],
+		Border = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Quest]],
 		Color = {1, 0.8, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
