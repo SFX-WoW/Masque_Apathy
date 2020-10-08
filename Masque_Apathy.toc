@@ -10,7 +10,7 @@
 ## Notes-deDE: Apathy-Skin für Masque.
 ## Notes-esMX: Skin Apathy para Masque.
 ## Notes-esES: Skin Apathy para Masque.
-## Notes-frFR: Skins de Apathy pour Masque.
+## Notes-frFR: Skin de Apathy pour Masque.
 ## Notes-itIT: Skin Apathy per Masque.
 ## Notes-ruRU: Скин Apathy для Masque.
 ## Notes-zhTW: Masque的Apathy皮膚。
