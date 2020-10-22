@@ -10,8 +10,6 @@
 
 ]]
 
--- GLOBALS: GetAddOnMetadata, LibStub
-
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
@@ -77,7 +75,7 @@ MSQ:AddSkin("Apathy", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0,
-			-- UseColor = true,
+			-- UseColor = nil,
 			-- SetAllPoints = nil,
 		},
 		Pet = {
@@ -93,7 +91,7 @@ MSQ:AddSkin("Apathy", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0,
-			-- UseColor = true,
+			-- UseColor = nil,
 			-- SetAllPoints = nil,
 		},
 	},
@@ -417,7 +415,7 @@ MSQ:AddSkin("Apathy", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true,
-		-- SetAllPoints = true,
+		-- SetAllPoints = nil,
 	},
 	ContextOverlay = {
 		-- Texture = nil,
@@ -433,7 +431,7 @@ MSQ:AddSkin("Apathy", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true,
-		-- SetAllPoints = true,
+		-- SetAllPoints = nil,
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
