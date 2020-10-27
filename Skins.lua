@@ -184,6 +184,17 @@ MSQ:AddSkin("Apathy", {
 		RelPoint = "TOPRIGHT",
 		OffsetX = -4,
 		OffsetY = -5,
+		Pet = {
+			JustifyH = "RIGHT",
+			JustifyV = "MIDDLE",
+			DrawLayer = "OVERLAY",
+			Width = 32,
+			Height = 10,
+			Point = "TOPRIGHT",
+			RelPoint = "TOPRIGHT",
+			OffsetX = -3,
+			OffsetY = -5,
+		},
 	},
 	Count = {
 		JustifyH = "RIGHT",
