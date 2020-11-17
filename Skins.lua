@@ -539,4 +539,4 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
