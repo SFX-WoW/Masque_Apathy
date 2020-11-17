@@ -36,8 +36,8 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Apathy", {
+	API_VERSION = 90002,
 	Shape = "Square",
-	Masque_Version = 90001,
 
 	-- Info
 	Description = L["A square, minimalistic skin with thin borders."],
