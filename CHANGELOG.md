@@ -1,4 +1,5 @@
-## 9.0.2
+## 9.0.3
 
-- Restored the overall size to that of previous versions.
-- Updated the `HotKey` text position for Pet buttons.
+- Changed `Masque_Version` to `API_VERSION`.
+- Updated `API_VERSION` to `90002`.
+- Updated the `Interface` version for Retail to `90002`.
