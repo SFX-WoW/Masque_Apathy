@@ -23,6 +23,7 @@
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
 ## X-Curse-Project-ID: 13593
+## X-Wago-ID: PANzJ5N4
 ## X-WoWI-ID: 8870
 
 # Locales
