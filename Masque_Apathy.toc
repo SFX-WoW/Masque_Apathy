@@ -1,11 +1,7 @@
-#@retail@
 ## Interface: 90005
-#@end-retail@
-#@non-retail@
-# ## Interface: 11306
-#@end-non-retail@
-## Title: Masque: Apathy
+## Interface-Classic: 11307
 
+## Title: Masque: Apathy
 ## Notes: Apathy skin for Masque.
 ## Notes-deDE: Apathy-Skin für Masque.
 ## Notes-esMX: Skin Apathy para Masque.
