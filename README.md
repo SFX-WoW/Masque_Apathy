@@ -29,7 +29,7 @@ Install the package through your preferred add-on manager or extract the archive
 
 ## [Credits][Top]
 
-- _Zeal_ for the original **Vol** skin.
+- _[Zeal](https://www.curseforge.com/members/zealvurte "Zeal @ CurseForge")_ for the original **Vol** skin.
 
 ## [Feedback][Top]
 
