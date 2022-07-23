@@ -29,7 +29,7 @@ Install the package through your preferred add-on manager or extract the archive
 
 ## [Credits][Top]
 
-- _[Zeal](https://www.curseforge.com/members/zealvurte "Zeal @ CurseForge")_ for the original **Vol** skin.
+- [Zeal](https://www.curseforge.com/members/zealvurte "Zeal @ CurseForge") for the original _Vol_ skin.
 
 ## [Feedback][Top]
 
@@ -37,7 +37,7 @@ For bug reports and suggestions, use the [issue tracker]. Direct any questions o
 
 ## [Localization][Top]
 
-To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
+To help translate this add-on, use the [localization system] on CurseForge. Alternatively, you can use the [issue tracker].
 
 ## [Links][Top]
 
@@ -47,7 +47,6 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
   - [GitHub]
   - [CurseForge]
   - [Wago.io]
-  - [WoW Ace]
   - [WoW Interface]
 
 [Links]: #
@@ -62,12 +61,11 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [Issue Tracker]: https://github.com/SFX-WoW/Masque_Apathy/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/masque-apathy/localization (Translate on WoW Ace)
+[Localization System]: https://www.curseforge.com/wow/addons/masque-apathy/localization (Translate on CurseForge)
 
 [CurseForge]: https://www.curseforge.com/wow/addons/masque-apathy (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/Masque_Apathy (View on GitHub)
 [Wago.io]: https://addons.wago.io/addons/masque-apathy (View on Wago.io)
-[WoW Ace]: https://www.wowace.com/projects/masque-apathy (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info8870 (View on WoW Interface)
 
 [Top]: #Top (Top of the Page)
