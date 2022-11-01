@@ -21,6 +21,7 @@ local AddOn, Core = ...
 
 -- Locale
 local L = Core.Locale
+local API_VERSION = 100000
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
@@ -36,7 +37,7 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Apathy", {
-	API_VERSION = 90002,
+	API_VERSION = API_VERSION,
 	Shape = "Square",
 
 	-- Info
@@ -240,6 +241,21 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotHighlight = {
+		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
+		-- TexCoords = {0, 1, 0, 1},
+		Color = {0, 0.7, 0.9, 0.7},
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 0,
+		Width = 32,
+		Height = 32,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
 	Name = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
@@ -286,21 +302,6 @@ MSQ:AddSkin("Apathy", {
 		-- RelicTexture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		BlendMode = "BLEND",
-		DrawLayer = "OVERLAY",
-		DrawLevel = 0,
-		Width = 32,
-		Height = 32,
-		Point = "CENTER",
-		RelPoint = "CENTER",
-		OffsetX = 0,
-		OffsetY = 0,
-		-- SetAllPoints = nil,
-	},
-	SlotHighlight = {
-		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
@@ -375,8 +376,8 @@ MSQ:AddSkin("Apathy", {
 		-- SetAllPoints = nil,
 	},
 	IconOverlay = {
-		Atlas = "AzeriteIconFrame",
-		UseAtlasSize = false,
+		-- Atlas = "AzeriteIconFrame",
+		-- UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -391,7 +392,7 @@ MSQ:AddSkin("Apathy", {
 	},
 	UpgradeIcon = {
 		Atlas = "bags-greenarrow",
-		UseAtlasSize = false,
+		UseAtlasSize = false, -- true
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -405,8 +406,8 @@ MSQ:AddSkin("Apathy", {
 		-- SetAllPoints = nil,
 	},
 	IconOverlay2 = {
-		Atlas = "ConduitIconFrame-Corners",
-		UseAtlasSize = false,
+		-- Atlas = "ConduitIconFrame-Corners",
+		-- UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -436,7 +437,7 @@ MSQ:AddSkin("Apathy", {
 	},
 	NewItem = {
 		-- Atlas = "bags-glow-white",
-		-- UseAtlasSize = true,
+		-- UseAtlasSize = false,
 		Texture = [[Interface\AddOns\Masque_Apathy\Textures\Glow]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
@@ -485,7 +486,7 @@ MSQ:AddSkin("Apathy", {
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
-		UseAtlasSize = false,
+		UseAtlasSize = false, -- true
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
