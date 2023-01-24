@@ -1,9 +1,9 @@
-## 10.0.2
+## 10.0.5
 
 ### Release Notes
 
-- Minor code clean-up.
-- Updated the `API_VERSION` to `100002`. (#28)
-- Updated the `Interface` version for _Retail_ to `100002`. (#29)
+- Updated the `Interface` version for **Retail** to `100005`. (#34)
+- Updated the `Interface` version for **Wrath Classic** to `30401`. (#33)
+- Updated the skin for **Masque** 10.0.5. (#35)
 
 [Release History](https://github.com/SFX-WoW/Masque_Apathy/wiki/History)
