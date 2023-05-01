@@ -1,9 +1,11 @@
 ## Interface: 11403
 
 ## Author: StormFX
-## Dependencies: Masque
 ## Title: Masque: Apathy
 ## Version: @project-version@
+
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_Apathy\Textures\Icon
 
 ## Notes: Apathy skin for Masque.
 ## Notes-deDE: Apathy-Skin für Masque.
