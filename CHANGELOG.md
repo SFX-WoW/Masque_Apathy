@@ -1,11 +1,8 @@
-## 10.1.0
+## 10.1.5
 
 ### Release Notes
 
-- Added an `IconTexture` for the **AddOns** menu. (#38)
-- Updated the `API_VERSION` to `100100`.
-- Updated the folder structure.
-- Updated the `Interface` version for **Retail** to `100100`. (#37)
-- Updated the `X-Discord` ToC entry.
+- Updated the `Interface` version for **Retail** to `100105`. (#40)
+- Updated the `Interface` version for **Wrath Classic** to `30402`. (#39)
 
 [Release History](https://github.com/SFX-WoW/Masque_Apathy/wiki/History)
