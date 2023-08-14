@@ -1,8 +1,7 @@
-## 10.1.5
+## 10.1.6
 
 ### Release Notes
 
-- Updated the `Interface` version for **Retail** to `100105`. (#40)
-- Updated the `Interface` version for **Wrath Classic** to `30402`. (#39)
+- Updated the `SpellAlert` size for **Masque** 10.1.5.
 
 [Release History](https://github.com/SFX-WoW/Masque_Apathy/wiki/History)
