@@ -470,4 +470,8 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Width = 30,
+		Height = 30,
+	},
 })
