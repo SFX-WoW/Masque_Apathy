@@ -1,0 +1,32 @@
+## Interface: 40400
+
+## Author: StormFX
+## Title: Masque: Apathy
+## Version: @project-version@
+
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_Apathy\Textures\Icon
+
+## Notes: Apathy skin for Masque.
+## Notes-deDE: Apathy-Skin für Masque.
+## Notes-esMX: Skin Apathy para Masque.
+## Notes-esES: Skin Apathy para Masque.
+## Notes-frFR: Skin de Apathy pour Masque.
+## Notes-itIT: Skin Apathy per Masque.
+## Notes-ruRU: Скин Apathy для Masque.
+## Notes-zhTW: Masque的Apathy皮膚。
+
+## X-Category: Interface Enhancements
+## X-Credits: Zeal
+## X-Discord: https://discord.gg/7MTWRgDzz8
+## X-Website: https://github.com/SFX-WoW/Masque_Apathy
+
+## X-Curse-Project-ID: 13593
+## X-Wago-ID: PANzJ5N4
+## X-WoWI-ID: 8870
+
+# Locales
+Locales.lua
+
+# Skins
+Skins.lua
