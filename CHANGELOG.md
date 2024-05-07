@@ -1,9 +1,9 @@
-## 10.2.6
+## 10.2.7
 
 ### Release Notes
 
-- Added support for **Cataclysm Classic**. (#47)
-- Updated the `Interface` version for **Retail** to `100206`. (#49)
-- Updated the `Interface` version for **Classic** to `11501`. (#48)
+- Updated the `Interface` version for **Retail** to `100207`. (#52)
+- Updated the `Interface` version for **Vanilla** to `11502`. (#51)
+- Removed support for **Wrath Classic**. (#50)
 
 [Release History](https://github.com/SFX-WoW/Masque_Apathy/wiki/History)
