@@ -1,9 +1,9 @@
-## 10.2.7
+## 10.2.8
 
 ### Release Notes
 
-- Updated the `Interface` version for **Retail** to `100207`. (#52)
-- Updated the `Interface` version for **Vanilla** to `11502`. (#51)
-- Removed support for **Wrath Classic**. (#50)
+- Added support for custom spell alert animations. (#54)
+- Switched to a single ToC file. (#53)
+- Updated the `API_VERSION` to `100207`.
 
 [Release History](https://github.com/SFX-WoW/Masque_Apathy/wiki/History)
