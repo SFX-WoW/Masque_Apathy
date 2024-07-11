@@ -446,22 +446,12 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = -1,
 		-- SetAllPoints = nil,
 	},
+	-- [ Cooldowns ]
 	Cooldown = {
-		-- Texture = nil,
-		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
-		-- PulseTexture = [[Interface\Cooldown\star4]],
+		Texture = [[Interface\AddOns\Masque\Textures\Square\Mask]],
+		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
+		PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
-		Width = 25,
-		Height = 25,
-		Point = "CENTER",
-		RelPoint = "CENTER",
-		OffsetX = 0,
-		OffsetY = 0,
-		-- SetAllPoints = nil,
-	},
-	ChargeCooldown = {
-		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
-		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Width = 24,
 		Height = 24,
 		Point = "CENTER",
@@ -470,6 +460,8 @@ MSQ:AddSkin("Apathy", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	ChargeCooldown = "Cooldown",
+	-- [ SpellAlert ]
 	SpellAlert = {
 		Width = 24,
 		Height = 24,
