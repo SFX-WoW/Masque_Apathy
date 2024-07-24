@@ -515,6 +515,10 @@ MSQ:AddSkin("Apathy", {
 			Height = 26,
 			Width = 26,
 		},
+		Modern = {
+			Height = 26,
+			Width = 26,
+		},
 		Thin = {
 			Height = 24,
 			Width = 24,
