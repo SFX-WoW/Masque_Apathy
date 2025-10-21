@@ -4,6 +4,7 @@
 ## Title: Masque: Apathy
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Apathy\Textures\Icon
 
