@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 110107
+local API_VERSION = 110207
 
 -- Skin Info
 local Version = "@project-version@"
@@ -505,10 +505,14 @@ MSQ:AddSkin("Apathy", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = "Cooldown",
-	-- [ SpellAlert ]
+	-- [ SpellAlerts ]
 	SpellAlert = {
 		Height = 32,
 		Width = 32,
+		AltGlow = {
+			Height = 36,
+			Width = 36,
+		},
 		Classic = {
 			Height = 26,
 			Width = 26,
@@ -517,9 +521,13 @@ MSQ:AddSkin("Apathy", {
 			Height = 26,
 			Width = 26,
 		},
-		Thin = {
-			Height = 24,
-			Width = 24,
+		["Modern-Lite"] = {
+			Height = 26,
+			Width = 26,
 		},
+	},
+	AssistedCombatHighlight = {
+		Width = 36,
+		Height = 36,
 	},
 })
