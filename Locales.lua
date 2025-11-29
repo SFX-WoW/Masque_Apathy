@@ -11,15 +11,10 @@
 local _, Core = ...
 
 ----------------------------------------
--- WoW API
+-- Locals
 ---
 
 local Locale = GetLocale()
-
-----------------------------------------
--- Local
----
-
 local L = {}
 
 ----------------------------------------
@@ -38,8 +33,7 @@ Core.Locale = setmetatable(L, {
 ---
 
 if Locale == "enGB" or Locale == "enUS" then
-	-- enUS/enGB for Reference
-	--L["A square, minimalistic skin with thin borders."] = "A square, minimalistic skin with thin borders."
+	L["A square, minimalistic skin with thin borders."] = "A square, minimalistic skin with thin borders."
 	return
 --elseif Locale == "deDE" then
 --elseif Locale == "esES" or Locale == "esMX" then
@@ -47,7 +41,8 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
 --elseif Locale == "ptBR" then
---elseif Locale == "ruRU" then
+elseif Locale == "ruRU" then
+	L["A square, minimalistic skin with thin borders."] = "Квадратный, минималистичный скин с тонкими границами."
 --elseif Locale == "zhCN" then
 elseif Locale == "zhTW" then
 	L["A square, minimalistic skin with thin borders."] = "一個方形，簡約帶薄外框的主題皮膚。"
