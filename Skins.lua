@@ -38,7 +38,7 @@ local Websites = {
 
 local PATH_BACKDROP = [[Interface\AddOns\Masque\Textures\Backdrop\]]
 
-local PATH_BASE = [[Interface\AddOns\Masque_Caith\Textures\Base\]]
+local PATH_BASE = [[Interface\AddOns\Masque_Apathy\Textures\Base\]]
 local PATH_BORDER = PATH_BASE.."Border"
 local PATH_GLOW = PATH_BASE.."Glow"
 
