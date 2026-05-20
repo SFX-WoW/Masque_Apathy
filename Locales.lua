@@ -40,7 +40,8 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
---elseif Locale == "ptBR" then
+elseif Locale == "ptBR" then
+	L["A square, minimalistic skin with thin borders."] = "Uma aparência quadrada e minimalista com bordas finas."
 elseif Locale == "ruRU" then
 	L["A square, minimalistic skin with thin borders."] = "Квадратный, минималистичный скин с тонкими границами."
 --elseif Locale == "zhCN" then
