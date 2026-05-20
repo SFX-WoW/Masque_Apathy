@@ -14,8 +14,9 @@
 ## Notes-esES: Skin Apathy para Masque.
 ## Notes-frFR: Skin de Apathy pour Masque.
 ## Notes-itIT: Skin Apathy per Masque.
+## Notes-ptBR: Aparência Apathy para o Masque.
 ## Notes-ruRU: Скин Apathy для Masque.
-## Notes-zhTW: Masque的Apathy皮膚。
+## Notes-zhTW: Masque的Apathy外觀。
 
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
