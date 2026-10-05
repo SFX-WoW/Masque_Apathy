@@ -32,19 +32,22 @@ Core.Locale = setmetatable(L, {
 -- Localization
 ---
 
-if Locale == "enGB" or Locale == "enUS" then
-	L["A square, minimalistic skin with thin borders."] = "A square, minimalistic skin with thin borders."
-	return
---elseif Locale == "deDE" then
---elseif Locale == "esES" or Locale == "esMX" then
---elseif Locale == "frFR" then
---elseif Locale == "itIT" then
---elseif Locale == "koKR" then
+if Locale == "deDE" then
+--@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "esES" or Locale == "esMX" then
+--@localization(locale="esES", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "frFR" then
+--@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "itIT" then
+--@localization(locale="itIT", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "koKR" then
+--@localization(locale="koKR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ptBR" then
-	L["A square, minimalistic skin with thin borders."] = "Uma aparência quadrada e minimalista com bordas finas."
+--@localization(locale="ptBR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ruRU" then
-	L["A square, minimalistic skin with thin borders."] = "Квадратный, минималистичный скин с тонкими границами."
---elseif Locale == "zhCN" then
+--@localization(locale="ruRU", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "zhCN" then
+--@localization(locale="zhCN", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "zhTW" then
-	L["A square, minimalistic skin with thin borders."] = "一個方形，簡約帶薄外框的主題皮膚。"
+--@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore")@
 end
