@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 120000
+local API_VERSION = 120100
 
 -- Skin Info
 local Version = "@project-version@"
@@ -203,21 +203,17 @@ Masque:AddSkin("Apathy", {
 		Width = 27,
 		OffsetY = -1,
 	},
-	-- [ AutoCastShine (Classic) ]
-	AutoCastable = {
-		Texture = PATH_BASE.."Indicator",
-		Color = {1, 1, 0, 1},
-		Width = 32,
-		Height = 32,
+	-- [ AutoCastOverlay ]
+	AutoCast_Frame = {
+		Width = 37,
+		Height = 37,
+		Classic = {
+			Width = 26,
+			Height = 26,
+			OffsetX = 1,
+			OffsetY = -1,
+		},
 	},
-	AutoCastShine = {
-		Width = 26,
-		Height = 26,
-		OffsetX = 1,
-		OffsetY = -1,
-	},
-	-- [ AutoCastOverlay (Retail) ]
-	-- AutoCast_Frame = Default.AutoCast_Frame,
 	AutoCast_Shine = {
 		Atlas = "UI-HUD-ActionBar-PetAutoCast-Ants",
 		Width = 36,
@@ -232,8 +228,16 @@ Masque:AddSkin("Apathy", {
 		Atlas = "UI-HUD-ActionBar-PetAutoCast-Corners",
 		Width = 30,
 		Height = 30	,
+		Classic = {
+			Texture = PATH_BASE.."Indicator",
+			Color = {1, 0.9, 0, 1},
+			Width = 32,
+			Height = 32,
+			OffsetX = -1,
+			OffsetY = 1,
+		},
 	},
-	-- [ Cooldowns ]
+	-- [ Cooldown ]
 	Cooldown = {
 		Texture = [[Interface\AddOns\Masque\Textures\Square\Mask]],
 		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
@@ -243,7 +247,7 @@ Masque:AddSkin("Apathy", {
 	},
 	CooldownLoC = "Cooldown",
 	ChargeCooldown = "Cooldown",
-	-- [ SpellAlerts ]
+	-- [ SpellAlert ]
 	SpellAlert = {
 		Height = 32,
 		Width = 32,
